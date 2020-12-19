@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>Rice SIMP Test</title>
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	</head>
+	<body id="body">
+		<br>
+		<div id="centerpiece" class="centerpiece">
+			<img src="RiceSimpTest.png" class="main-image"></img>
+			<br>
+			<br>
+			<label class="main-text noSpace page2" style="display: none; font-size: 130%;">Your score:</label>
+			<label class="main-text noSpace page2" id="score" style="display: none; font-size: 200%;">100</label>
+			<label class="main-text noSpace page2" id="rank" style="display: none; font-size: 115%;">Ranking</label>
+			<br class="page2" style="display: none;">
+			<br class="page2" style="display: none;">
+			<br class="page2" style="display: none;">
+			<br class="page2" style="display: none;">
+			<button class="button page2 noSpace" id="go-back" style="display: none; text-align: center;" onclick="goBack();">Go back</button>
+			<label class="main-text noSpace page1"><i>The Simp Test serves as a segue to modern life. While The Purity Test can be applied to a portion of the population,
+			there are many people left behind, and this test serves to classify them.
+			Simps can be found in all walks of life, and can be any gender.
+			Inspired by the Rice Purity Test, which can be found <a href="http://ricepuritytest.com/">here</a>.</i></label>
+			<br> <br>
+			<label class="main-text noSpace page1"><b>Caution: This is <u>not</u> a bucket list. Completion in all items on this list may result in therapy.</b></label>
+			<br> <br>
+			<label class="main-text noSpace page1">Click on every item you have done. MPS stands for Members of the Preferred Sex.</label>
+		</div>
+		
+		
+		<br>
+		<div class="noSpace page1" id="questionDiv">
+			<label class="leftSpace page1" style="font-size: calc(150%);"><i>Have you ever...</i></label>
+			<div id="question-holder" class="leftSpace">
+				<div id="test-div" class="noSpace" style="display: none;">
+					<label id="test-label" class="noSpace rightSpace questionText">1. </label>
+					<input type="checkbox" id="test-checkbox" class="noSpace sideSpace checkbox"> 
+					<label class="noSpace"> The rest of the question </label>
+				</div>
+			</div>
+		</div>
+		
+		
+		<br>
+		<button class="button page1" id="submit-button" onclick="showTotal();">Calculate</button>
+		<button class="button page1" id="clear-button" onclick="clearCheckboxes();">Clear Checkboxes</button>
+		<br>
+		<br>
+		<label style="display: none;"></label>
+		<!-- Socket stuff -->
+		<script src="main.js"> </script>
+	</body>
+</html>
