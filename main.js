@@ -17,27 +17,15 @@ var questions = [
 	"Dreamt about MPS",
 	"Had a sexual dream about MPS",
 	
-	"Had a crush on someone you've seen but never talked to",
-	"Had a crush on someone who doesn't know you exist",
-	"Had a crush on someone you haven't seen in a week",
-	"Had a crush on someone you haven't seen in a month",
-	"Had a crush on someone you haven't seen in a year",
-	"Masturbated to the thought of them",
-	"Masturbated to a picture/video of them",
-	"Masturbated to the thought of someone you know who doesn't know you",
-	"Masturbated to the thought of someone who doesn't know you exist",
-	"Masturbated to the thought of someone who isn't real",
-	"Found a porn with someone who looks similar to MPS and gotten off to it",
-	"Paid for OnlyFans",
-	"Paid for any form of online sex work",
-	"Bought a premium subscription on dating apps",
-	
 	"Given a foot massage unprompted",
 	"Given a back massage unprompted",
 	"Offered a sexual favor with no reciprocation",
 	"Given a sexual favor with no reciprocation",
 	
-	"Watched a tv show just so you could talk about it with someone",
+	"Watched a tv show you didn't like just so you could talk about it with someone",
+	"Played a video game they liked to get closer to them",
+	"Gone to an event you wouldn't have gone to if they weren't there",
+	"Pretended you liked/didn't like astrology",
 	"Changed your hair/makeup to please someone",
 	"Changed your style to please someone",
 	"Gotten dressed up just to send a snap/video chat",
@@ -55,14 +43,37 @@ var questions = [
 	"Gotten cheated on and still stayed with the person",
 	"Offered to meet with someone only for them to blow you off, and still pursued them",
 	"If you think of anyone when you read 'they were the one'",
+	"Gone on a date with someone and been completely passive because you want them to like you",
+	"Gotten angry because they were in a bad relationship and you could 'treat them better'",
+	
+	"Had a crush on someone you've seen but never talked to",
+	"Had a crush on someone who doesn't know you exist",
+	"Had a crush on someone you haven't seen in a week",
+	"Had a crush on someone you haven't seen in a month",
+	"Had a crush on someone you haven't seen in a year",
+	"Masturbated to the thought of them",
+	"Masturbated to a picture/video of them",
+	"Masturbated to the thought of someone you know who doesn't know you",
+	"Masturbated to the thought of someone who doesn't know you exist",
+	"Masturbated to the thought of someone who isn't real",
+	"Found a porn with someone who looks similar to MPS and gotten off to it",
+	"Paid for OnlyFans",
+	"Paid for any form of online sex work",
+	"Bought a premium subscription on dating apps",
+	
 	
 	"Sent 4+ unanswered messages",
+	"Consistently responded within a few minutes to their messages if they take hours to respond",
+	"Asked your friends/someone else how to respond to their texts because you want to impress them",
 	"Checked their snap score to see if it increased",
 	"Checked their last known location",
 	"Checked if they posted on social media",
 	"Stalked them on social media",
 	"Stalked their family on social media",
 	"Stalked their followers/following on social media",
+	"Created an alternate social media account to stalk/interact with them",
+	"Called them with a number blocker just to talk to them",
+	"Texted them from a fake number asking who their crush is",
 	"Looked up their ex",
 	"Wished you were their current S/O",
 	"Cried or gotten depressed because you're not as pretty as their ex(es)",
@@ -84,17 +95,26 @@ var questions = [
 	"Had a dependent attachment to MPS",
 	"Had a codependent attachment to MPS",
 	"Gotten depressed because you weren't with them",
+	"Would sacrifice your own happiness for theirs",
+	
+	"Spent $1 on someone in a simp manner",
+	"Spent over $100 on someone in a simp manner",
+	"Spent over $1,000 on someone in a simp manner",
+	"Lied to yourself about simping over someone",
+	"Have you simped before?",
+	"Would you simp again?",
 ];
 
 var ranks = [];
+ranks["Purebred Simp"] = 100;
 ranks["Simp God"] = 94;
 ranks["Mega Simp"] = 82;
 ranks["Homer SIMPson"] = 70;
 ranks["Simp"] = 58;
-ranks["Simp Tendencies"] = 42;
-ranks["Kinda Simpy"] = 30;
-ranks["Anti-Simp"] = 15;
-ranks["Chad"] = 5;
+ranks["Simp Tendencies"] = 44;
+ranks["Kinda Simpy"] = 31;
+ranks["Anti-Simp"] = 18;
+ranks["Chad"] = 7;
 
 var firstPageIds = ["questionDiv", "submit-button", "clear-button"];
 var secondPageIds = [];
@@ -102,7 +122,7 @@ var secondPageIds = [];
 console.log("Loaded.");
 var questionHolder = document.getElementById("question-holder");
 var div = document.getElementById("test-div");
-for (var i = 0; i < questions.length; i++) {
+for (var i = 0; i < 68; i++) {
 	var clon = div.cloneNode(true);
 	clon.id = "Div" + (i + 1);
 	clon.style = "";
@@ -110,6 +130,25 @@ for (var i = 0; i < questions.length; i++) {
 	if (questions[i][questions[i].length - 1] != "?") { questions[i] += "?"; }
 	clon.children[2].innerHTML = questions[i];
 	clon.children[1].id = "checkbox" + i;
+	questionHolder.appendChild(clon);
+};
+for (var i = 68; i < 69; i++) {
+	var clon = div.cloneNode(true);
+	clon.id = "Div" + (i + 1);
+	clon.style = "";
+	clon.children[0].innerHTML = (i + 1) + ". ";
+	clon.children[2].innerHTML = "Just check the dang box";
+	clon.children[1].id = "checkbox" + i;
+	questionHolder.appendChild(clon);
+}
+for (var i = 68; i < questions.length; i++) {
+	var clon = div.cloneNode(true);
+	clon.id = "Div" + (i + 2);
+	clon.style = "";
+	clon.children[0].innerHTML = (i + 2) + ". ";
+	if (questions[i][questions[i].length - 1] != "?") { questions[i] += "?"; }
+	clon.children[2].innerHTML = questions[i];
+	clon.children[1].id = "checkbox" + (i + 1);
 	questionHolder.appendChild(clon);
 };
 
