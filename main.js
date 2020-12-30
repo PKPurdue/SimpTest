@@ -34,6 +34,7 @@ var questions = [
 	"Traveled 30+ minutes to see MPS",
 	"Traveled 1+ hour to see MPS",
 	"Traveled 3+ hours to see MPS",
+	"Been in an LDR",
 	
 	"Tried to continue the conversation after a one-word response",
 	"Asked if they ate enough/drank enough water",
@@ -56,12 +57,14 @@ var questions = [
 	"Masturbated to the thought of someone you know who doesn't know you",
 	"Masturbated to the thought of someone who doesn't know you exist",
 	"Masturbated to the thought of someone who isn't real",
+	"Been cucked",
 	"Found a porn with someone who looks similar to MPS and gotten off to it",
 	"Paid for OnlyFans",
 	"Paid for any form of online sex work",
 	"Bought a premium subscription on dating apps",
+	"Answered a thirst trap",
 	
-	
+	"Slid into someone's DMs",
 	"Sent 4+ unanswered messages",
 	"Consistently responded within a few minutes to their messages if they take hours to respond",
 	"Asked your friends/someone else how to respond to their texts because you want to impress them",

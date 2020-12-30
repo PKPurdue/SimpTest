@@ -13,6 +13,11 @@
 	background-size: 13% auto;
 }
 
+.question-div {
+	display: grid;
+	grid-template-columns: 1fr 1fr 55fr;
+}
+
 .main-image {
 	position: relative;
 	width: 80%;
@@ -44,8 +49,9 @@
 .questionText {
 	margin: auto;
 	# background: red;
-	width: calc(1% + 5px);
+	width: 100%;
 	text-align: right;
+	vertical-align: right;
 }
 
 .button {
@@ -54,6 +60,11 @@
 	min-width: 15%;
 	background-color: #FFDFDD;
 	# border: 0px;
+}
+
+.checkbox {
+	height: 100%;
+	width: flex;
 }
 
 .button:hover {
