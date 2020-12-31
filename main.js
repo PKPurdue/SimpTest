@@ -192,7 +192,7 @@ function showTotal() {
 	document.getElementById("score").innerHTML = total;
 	var lowest = 101;
 	for (var i in ranks) {
-		if (total < ranks[i] && ranks[i] < lowest) {
+		if (total <= ranks[i] && ranks[i] <= lowest) {
 			lowest = ranks[i];
 			document.getElementById("rank").innerHTML = i;
 		}
