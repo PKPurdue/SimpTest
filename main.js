@@ -95,8 +95,8 @@ var questions = [
 	"Upvoted or commented attractive people's posts in the hope they'll acknowledge you",
 	"Been called a 'nice guy' or 'nice girl'?",
 	
-	"Had a dependent attachment to MPS",
-	"Had a codependent attachment to MPS",
+	"Been curved by 5+ people",
+	"Been curved by 10+ people",
 	"Gotten depressed because you weren't with them",
 	"Would sacrifice your own happiness for theirs",
 	
