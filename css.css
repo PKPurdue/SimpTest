@@ -15,7 +15,7 @@
 
 .question-div {
 	display: grid;
-	grid-template-columns: 3fr 2fr 150fr;
+	grid-template-columns: 1fr 1fr 65fr;
 }
 
 .main-image {
@@ -57,7 +57,7 @@
 li {
 	list-style-type: decimal;
 	text-align: -webkit-match-parent;
-	background: blue;
+	# background: blue;
 }
 
 .checkbox {
