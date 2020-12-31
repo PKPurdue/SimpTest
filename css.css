@@ -69,16 +69,7 @@ li {
 }
 
 .checkbox {
-	position: relative;
-	top: 3px;
-	margin-right: 6px;
 	vertical-align: middle !important;
-	float: left;
-}
-
-.real-question-text {
-	overflow: hidden;
-	display: block;
 }
 
 .button:hover {
