@@ -109,5 +109,11 @@ ol > li:before {
 #go-back {
 	display: block;
 	margin: 0 auto;
-	
+}
+
+@media (max-width:500px) {
+	.checkbox {
+		margin-left: 1px;
+		top: 1px;
+	}
 }
