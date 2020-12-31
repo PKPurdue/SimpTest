@@ -85,7 +85,7 @@ li {
 .real-question-text {
 	overflow: hidden;
 	display: block;
-	# background: red;
+	background: green;
 }
 
 .button:hover {
