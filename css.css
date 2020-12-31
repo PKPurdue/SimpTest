@@ -1,9 +1,9 @@
 #centerpiece {
 	# position: absolute;
-	width: 45%;
-	margin-left: 27.5%;
-	vertical-align: center;
-	text-align: center;
+	width: 600;
+	# margin-left: 27.5%;
+	# vertical-align: center;
+	# text-align: center;
 }
 
 #body {
@@ -11,6 +11,11 @@
 	background-image: url("penguin.png"); 
 	background-repeat: repeat;
 	background-size: 13% auto;
+	text-align: center;
+}
+
+#questionDiv {
+	text-align: left;
 }
 
 .question-div {
@@ -19,14 +24,19 @@
 }
 
 .main-image {
-	position: relative;
-	width: 80%;
-	left: 10%;
+	# position: relative;
+	# width: 80%;
+	# left: 10%;
+	width: 50%;
+	max-width: 800px;
+	min-width: 500px;
 }
 
 .main-text {
 	font-size: calc(90%);
-	width: 100%;
+	width: 65%;
+	max-width: 850px;
+	min-width: 550px;
 	text-align: center;
 }
 
@@ -57,7 +67,8 @@
 li {
 	list-style-type: decimal;
 	text-align: -webkit-match-parent;
-	background: blue;
+	# background: blue;
+	text-align: left;
 }
 
 .checkbox {
