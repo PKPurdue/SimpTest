@@ -141,33 +141,28 @@ var questionHolder = document.getElementById("question-holder");
 var div = document.getElementById("test-div");
 for (var i = 0; i < 68; i++) {
 	var clon = div.cloneNode(true);
-	clon.id = "Div" + (i + 1);
-	clon.style = "";
-	clon.children[0].innerHTML = (i + 1) + ". ";
+	clon.id = "Temp" + i;
 	if (questions[i][questions[i].length - 1] != "?") { questions[i] += "?"; }
-	clon.children[2].innerHTML = questions[i];
-	clon.children[1].id = "checkbox" + i;
+	clon.children[1].innerHTML = questions[i];
+	clon.children[0].id = "checkbox" + i;
 	questionHolder.appendChild(clon);
 };
 for (var i = 68; i < 69; i++) {
 	var clon = div.cloneNode(true);
-	clon.id = "Div" + (i + 1);
-	clon.style = "";
-	clon.children[0].innerHTML = (i + 1) + ". ";
-	clon.children[2].innerHTML = "Just check the dang box";
+	clon.id = "Temp" + i;
+	clon.children[1].innerHTML = "Just check the dang box";
 	clon.children[1].id = "checkbox" + i;
 	questionHolder.appendChild(clon);
 }
 for (var i = 68; i < questions.length; i++) {
 	var clon = div.cloneNode(true);
-	clon.id = "Div" + (i + 2);
-	clon.style = "";
-	clon.children[0].innerHTML = (i + 2) + ". ";
+	clon.id = "Temp" + (i + 1);
 	if (questions[i][questions[i].length - 1] != "?") { questions[i] += "?"; }
-	clon.children[2].innerHTML = questions[i];
-	clon.children[1].id = "checkbox" + (i + 1);
+	clon.children[1].innerHTML = questions[i];
+	clon.children[0].id = "checkbox" + (i + 1);
 	questionHolder.appendChild(clon);
 };
+div.remove();
 
 function clearCheckboxes() {
 	var checkboxes = document.getElementsByClassName("checkbox");
