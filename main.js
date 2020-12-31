@@ -44,7 +44,6 @@ var questions = [
 	"Gotten cheated on and still stayed with them",
 	"Offered to meet with someone only to get blown off, and still pursued them",
 	"If you think of anyone when you read 'they were the one'",
-	"Gone on a date with someone and been completely passive because you want them to like you",
 	"Gotten angry because they were in a bad relationship and you could 'treat them better'",
 	
 	"Had a crush on someone you've seen but never talked to",
@@ -97,8 +96,9 @@ var questions = [
 	
 	"Been curved by 5+ people",
 	"Been curved by 10+ people",
+	"Think all men/women are helpless",
+	"Frequently bash your preferred gender",
 	"Gotten depressed because you weren't with them",
-	"Would sacrifice your own happiness for theirs",
 	
 	"Spent $1 on someone in a simp manner",
 	"Spent over $100 on someone in a simp manner",
