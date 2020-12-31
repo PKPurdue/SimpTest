@@ -58,7 +58,7 @@ var questions = [
 	"Masturbated to the thought of someone who doesn't know you exist",
 	"Masturbated to the thought of someone who isn't real",
 	"Been cucked",
-	"Found a porn with someone who looks similar to MPS and gotten off to it",
+	"Owned a lightup keyboard",
 	"Paid for OnlyFans",
 	"Paid for any form of online sex work",
 	"Bought a premium subscription on dating apps",
