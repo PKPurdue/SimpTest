@@ -14,8 +14,8 @@
 }
 
 .question-div {
-	# display: grid;
-	# grid-template-columns: 1fr 1fr 55fr;
+	display: grid;
+	grid-template-columns: 3fr 2fr 150fr;
 }
 
 .main-image {
@@ -47,10 +47,10 @@
 }
 
 .questionText {
-	margin: auto;
-	background: blue;
-	text-align: right;
-	width: calc(2% + 5px);
+	# margin: auto;
+	background: red;
+	text-align: left;
+	# width: calc(2% + 5px);
 	vertical-align: right;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .checkbox {
-	# height: 100%;
+	height: 100%;
 	# width: flex;
 }
 
