@@ -46,14 +46,6 @@
 	margin-left: calc(5px + 1%);
 }
 
-.questionText {
-	# margin: auto;
-	background: red;
-	text-align: left;
-	# width: calc(2% + 5px);
-	vertical-align: right;
-}
-
 .button {
 	border-radius: calc(10px);
 	margin-right: calc(5px + 2%);
@@ -65,6 +57,7 @@
 li {
 	list-style-type: decimal;
 	text-align: -webkit-match-parent;
+	background: blue;
 }
 
 .checkbox {
