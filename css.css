@@ -62,12 +62,8 @@
 	# border: 0px;
 }
 
-li {
-	# list-style-type: decimal;
-	# text-align: -webkit-match-parent;
-	# background: blue;
-	text-align: left;
-	# font-size: calc(90%);
+ol {
+	list-style-type: decimal;
 }
 
 .checkbox {
@@ -77,8 +73,13 @@ li {
 	top: 2px;
 }
 
-ol {
-	list-style-type: decimal;
+li {
+	# list-style-type: decimal;
+	# text-align: -webkit-match-parent;
+	# background: blue;
+	text-align: left;
+	# font-size: calc(90%);
+	display: list-item !important;
 }
 
 .real-question-text {
