@@ -63,7 +63,7 @@
 }
 
 li {
-	list-style-type: decimal;
+	# list-style-type: decimal;
 	# text-align: -webkit-match-parent;
 	# background: blue;
 	text-align: left;
