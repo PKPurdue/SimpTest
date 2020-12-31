@@ -29,14 +29,14 @@
 	# left: 10%;
 	width: 50%;
 	max-width: 800px;
-	min-width: 500px;
+	min-width: 250px;
 }
 
 .main-text {
-	font-size: calc(90%);
-	width: 65%;
+	font-size: calc(105%) !important;
+	width: 60%;
 	max-width: 850px;
-	min-width: 550px;
+	min-width: 300px;
 	text-align: center;
 }
 
@@ -44,7 +44,7 @@
 	margin: 0px;
 	padding: 0px;
 	# margin-bottom: calc(1px);
-	font-size: calc(95%);
+	font-size: calc(100%);
 }
 
 .sideSpace {
