@@ -33,6 +33,7 @@
 }
 
 .main-text {
+	display: inline-block;
 	font-size: calc(105%) !important;
 	width: 60%;
 	max-width: 850px;
