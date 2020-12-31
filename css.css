@@ -15,7 +15,7 @@
 
 .question-div {
 	display: grid;
-	grid-template-columns: 1fr 1fr 55fr;
+	# grid-template-columns: 1fr 1fr 55fr;
 }
 
 .main-image {
@@ -50,7 +50,7 @@
 	# margin: auto;
 	background: red;
 	text-align: right;
-	width: 100%;
+	width: calc(1% + 3px);
 	vertical-align: right;
 }
 
