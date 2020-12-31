@@ -48,9 +48,9 @@
 
 .questionText {
 	# margin: auto;
-	background: yellow;
+	# background: yellow;
 	text-align: right;
-	width: calc(2% + 3px);
+	width: calc(2% + 5px);
 	vertical-align: right;
 }
 
