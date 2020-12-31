@@ -70,6 +70,14 @@ li {
 
 .checkbox {
 	vertical-align: middle !important;
+	float: left;
+	position: relative;
+	top: 4px;
+}
+
+.real-question-text {
+	overflow: hidden;
+	display: block;
 }
 
 .button:hover {
