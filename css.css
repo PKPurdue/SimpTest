@@ -96,7 +96,6 @@ ol > li:before {
 	overflow: hidden;
 	display: block;
 	margin-top: -1px;
-	background: blue;
 }
 
 .button:hover {
