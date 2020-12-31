@@ -36,6 +36,12 @@ var questions = [
 	"Traveled 3+ hours to see MPS",
 	"Been in an LDR",
 	
+	"Had a crush on someone you've seen but never talked to",
+	"Had a crush on someone who doesn't know you exist",
+	"Had a crush on someone you haven't seen in a week",
+	"Had a crush on someone you haven't seen in a month",
+	"Had a crush on someone you haven't seen in a year",
+	
 	"Continued the conversation after a one-word response",
 	"Asked if they ate enough/drank enough water",
 	"Asked someone to put in the bare minimum",
@@ -46,11 +52,6 @@ var questions = [
 	"If you think of anyone when you read 'they were the one'",
 	"Gotten angry because they were in a bad relationship and you could 'treat them better'",
 	
-	"Had a crush on someone you've seen but never talked to",
-	"Had a crush on someone who doesn't know you exist",
-	"Had a crush on someone you haven't seen in a week",
-	"Had a crush on someone you haven't seen in a month",
-	"Had a crush on someone you haven't seen in a year",
 	"Masturbated to the thought of them",
 	"Masturbated to a picture/video of them",
 	"Masturbated to the thought of someone you know who doesn't know you",
@@ -118,7 +119,7 @@ ranks["Simp"] = 58;
 ranks["Simp Tendencies"] = 49;
 ranks["Kinda Simpy"] = 40;
 ranks["Minor Simp"] = 32;
-ranks["Anti-Simp"] = 26;
+ranks["Anti-Simp"] = 23;
 ranks["Chad"] = 17;
 ranks["Mythical Chad"] = 9;
 ranks["1% Simp, 99% Hot Gas"] = 1;
