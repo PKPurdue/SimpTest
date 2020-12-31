@@ -47,8 +47,8 @@
 }
 
 .questionText {
-	# margin: auto;
-	# background: yellow;
+	margin: auto;
+	background: blue;
 	text-align: right;
 	width: calc(2% + 5px);
 	vertical-align: right;

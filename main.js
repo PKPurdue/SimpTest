@@ -117,8 +117,21 @@ ranks["Homer SIMPson"] = 68;
 ranks["Simp"] = 58;
 ranks["Simp Tendencies"] = 44;
 ranks["Kinda Simpy"] = 31;
-ranks["Anti-Simp"] = 18;
+ranks["Minor Simp"] = 22;
+ranks["Anti-Simp"] = 14;
 ranks["Chad"] = 7;
+ranks["1% Simp, 99% Hot Gas"] = 1;
+
+var rankExplanations = [];
+rankExplanations["Purebred Simp"] = "You are the definition of a simp. Re-evaluate your life choices and seek help.";
+rankExplanations["Simp God"] = "Seek help.";
+
+rankExplanations["Chad"] = "No simping detected.";
+
+var otherPeople = [];
+otherPeople["Purebred Simp"] = ["Millhouse"];
+
+
 
 var firstPageIds = ["questionDiv", "submit-button", "clear-button"];
 var secondPageIds = [];
