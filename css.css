@@ -77,10 +77,14 @@ li {
 	top: 2px;
 }
 
+ol {
+	list-style-type: decimal;
+}
+
 .real-question-text {
 	overflow: hidden;
 	display: block;
-	background: red;
+	# background: red;
 }
 
 .button:hover {
